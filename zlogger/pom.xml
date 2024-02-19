@@ -6,7 +6,7 @@
 
     <groupId>net.zcode</groupId>
     <artifactId>zlogger</artifactId>
-    <version>cosmic</version>
+    <version>1.0.1-cosmic</version>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

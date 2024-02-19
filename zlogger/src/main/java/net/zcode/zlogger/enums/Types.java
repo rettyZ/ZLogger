@@ -1,4 +1,4 @@
-package net.zcode.enums;
+package net.zcode.zlogger.enums;
 
 public class Types {
     public enum Code {

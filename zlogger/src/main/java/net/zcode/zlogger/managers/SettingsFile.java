@@ -1,4 +1,4 @@
-package net.zcode.managers;
+package net.zcode.zlogger.managers;
 
 public class SettingsFile {
     //Check if file exist if not create it

@@ -32,14 +32,15 @@ Download from: xx
 ## Usage/Examples
 
 ```java
-import net.zcode.zlogger.*;
+import net.zcode.zlogger.ZLogger;
+import net.zcode.zlogger.enums.Types;
 
 public class MyNiceClass {
     public static void main(String[] args) {
-        ZLogger.LOG(INFO, "This is information!");
-        ZLogger.LOG(ERROR, "This is error!");
-        ZLogger.LOG(SUCCESS, "This is success!");
-        ZLogger.LOG(OTHER, "This is other!");
+        ZLogger.LOG(Types.Code.INFO, "This is information!");
+        ZLogger.LOG(Types.Code.ERROR, "This is error!");
+        ZLogger.LOG(Types.Code.SUCCESS, "This is success!");
+        ZLogger.LOG(Types.Code.OTHER, "This is other!");
     }
 }
 ```

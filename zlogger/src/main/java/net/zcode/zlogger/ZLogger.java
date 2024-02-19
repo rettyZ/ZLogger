@@ -1,5 +1,5 @@
-package net.zcode;
-import net.zcode.enums.Types.Code;
+package net.zcode.zlogger;
+import net.zcode.zlogger.enums.Types.Code;
 
 public class ZLogger {
 
@@ -18,7 +18,7 @@ public class ZLogger {
         System.out.println("[ ZLogger | Build: 1.0.1 | Cosmic ]");
     }
 
-    public void LOG(Code type, String text){
+    public static void LOG(Code type, String text){
         switch (type){
             case INFO:
                 System.out.println(ANSI_BLUE_BG + "~ ZLogger | INFO: " + text + ANSI_RESET);

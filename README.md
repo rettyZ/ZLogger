@@ -39,6 +39,7 @@ public class MyNiceClass {
         ZLogger.LOG(INFO, "This is information!");
         ZLogger.LOG(ERROR, "This is error!");
         ZLogger.LOG(SUCCESS, "This is success!");
+        ZLogger.LOG(OTHER, "This is other!");
     }
 }
 ```

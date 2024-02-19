@@ -9,13 +9,13 @@ public class ZLogger {
     public static final String ANSI_BLUE_BG = "\u001B[44m";
     public static final String ANSI_WHITE_BG = "\u001B[47m";
 
-    public static Code INFO = Code.INFO;
+    public static final Code INFO = Code.INFO;
 
-    public static Code ERROR = Code.ERROR;
+    public static final Code ERROR = Code.ERROR;
 
-    public static Code SUCCESS = Code.SUCCESS;
+    public static final Code SUCCESS = Code.SUCCESS;
 
-    public static Code OTHER = Code.OTHER;
+    public static final Code OTHER = Code.OTHER;
 
     public static void main(String[] args) {
         System.out.println("[ ZLogger | Build: 1.0.1 | Cosmic ]");

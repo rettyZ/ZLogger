@@ -2,6 +2,8 @@
 # ZLogger
 
 Simple Java LOG(GER, "made with ❤️ by ZCode");
+
+
 ## How to start?
 
 ### Add dependency

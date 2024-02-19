@@ -4,6 +4,7 @@ public class Types {
     public enum Code {
         INFO,
         ERROR,
-        SUCCESS
+        SUCCESS,
+        OTHER
     }     
 }

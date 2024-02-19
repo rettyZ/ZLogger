@@ -7,12 +7,15 @@ public class ZLogger {
     public static final String ANSI_GREEN_BG = "\u001B[42m";
     public static final String ANSI_RED_BG = "\u001B[41m";
     public static final String ANSI_BLUE_BG = "\u001B[44m";
+    public static final String ANSI_WHITE_BG = "\u001B[47m";
 
     public static Code INFO = Code.INFO;
 
     public static Code ERROR = Code.ERROR;
 
     public static Code SUCCESS = Code.SUCCESS;
+
+    public static Code OTHER = Code.OTHER;
 
     public static void main(String[] args) {
         System.out.println("[ ZLogger | Build: 1.0.1 | Cosmic ]");
@@ -28,6 +31,9 @@ public class ZLogger {
                 break;
             case SUCCESS:
                 System.out.println(ANSI_GREEN_BG + "~ ZLogger | SUCCESS: " + text + ANSI_RESET);
+                break;
+            default:
+                System.out.println(ANSI_WHITE_BG + "~ ZLogger | " + text + ANSI_RESET);
                 break;
         }
     }

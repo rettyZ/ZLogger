@@ -50,6 +50,8 @@ Logger creating settings file with:
 
 `save-to-website` option (closed beta)
 
+`api-key`
+
 If you want to use any option - set it to true else set it to false.
 ## Checking for Updates
 

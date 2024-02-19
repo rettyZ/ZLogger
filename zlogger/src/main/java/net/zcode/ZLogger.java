@@ -8,14 +8,14 @@ public class ZLogger {
     public static final String ANSI_RED_BG = "\u001B[41m";
     public static final String ANSI_BLUE_BG = "\u001B[44m";
 
+    public static Code INFO = Code.INFO;
+
+    public static Code ERROR = Code.ERROR;
+
+    public static Code SUCCESS = Code.SUCCESS;
+
     public static void main(String[] args) {
         System.out.println("[ ZLogger | Build: 1.0.1 | Cosmic ]");
-
-        // !! ZROBIĆ SPRAWDZANIE AKTUALIZACJI !!
-
-        Code INFO = Code.INFO;
-        Code ERROR = Code.ERROR;
-        Code SUCCESS = Code.SUCCESS;
     }
 
     public static void LOG(Code type, String text){

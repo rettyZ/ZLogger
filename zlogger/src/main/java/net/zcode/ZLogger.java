@@ -10,11 +10,8 @@ public class ZLogger {
     public static final String ANSI_WHITE_BG = "\u001B[47m";
 
     public static final Code INFO = Code.INFO;
-
     public static final Code ERROR = Code.ERROR;
-
     public static final Code SUCCESS = Code.SUCCESS;
-
     public static final Code OTHER = Code.OTHER;
 
     public static void main(String[] args) {

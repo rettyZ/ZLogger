@@ -52,10 +52,6 @@ Logger creating settings file with:
 
 `save-to-database` option
 
-`save-to-website` option (closed beta)
-
-`api-key`
-
 If you want to use any option - set it to true else set it to false.
 ## Checking for Updates
 
@@ -64,19 +60,6 @@ If you want to use any option - set it to true else set it to false.
 ```http
 GET zcode.net/api/zlogger/version
 ```
-## Save logs on  our server
-
-#### Get saved logs
-
-```http
-GET zcode.net/api/zlogger/saved-logs/{api_key}
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-It's save only 10x logs.
 
 ## Screenshots
 

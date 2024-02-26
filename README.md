@@ -14,15 +14,15 @@ Simple Java LOG(GER, "made with ❤️ by ZCode");
 </repository>
 
 <dependency>
-    <groupId>net.zcode</groupId>
+[//]: <> (    <groupId>net.zcode</groupId>
     <artifactId>zlogger</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.1</version> )
 </dependency>
 ```
 
 #### Gradle
-```java
-implementation("net.zcode:zlogger:1.0.1")
+```java [//]: <> (
+implementation("net.zcode:zlogger:1.0.1") )
 ```
 
 #### Or add .jar file
@@ -57,7 +57,7 @@ Logger creating settings file with:
 `api-key`
 
 If you want to use any option - set it to true else set it to false.
-## Checking for Updates
+[//]: <> (## Checking for Updates
 
 #### Get version
 
@@ -77,6 +77,8 @@ GET zcode.net/api/zlogger/saved-logs/{api_key}
 | `api_key` | `string` | **Required**. Your API key |
 
 It's save only 10x logs.
+
+)
 
 ## Screenshots
 
